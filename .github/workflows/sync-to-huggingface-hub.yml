@@ -18,7 +18,7 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.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 }}
         run: |
-          git config user.email "70110589@student.uol.edu.pk"
+          git config user.email "fatimasakina011@gmail.com"
           git config user.name "Sakina122"
           git add .
           git commit -m "Sync to Hugging Face Hub"
