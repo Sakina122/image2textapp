@@ -22,4 +22,4 @@ jobs:
           git config user.name "Sakina122"
           git add .
           git commit -m "Sync to Hugging Face Hub"
-          git push https://sakinafatima123:${HF_TOKEN}@huggingface.co/spaces/sakinafatima123/image-to-text-app main
+          git push https://Sakina122:${HF_TOKEN}@huggingface.co/spaces/sakinafatima123/image-to-text-app main
