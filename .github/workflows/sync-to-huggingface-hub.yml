@@ -16,7 +16,7 @@ jobs:
 
       - name: Push to Hub
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_TOKEN: ${{ secrets.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 }}
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
