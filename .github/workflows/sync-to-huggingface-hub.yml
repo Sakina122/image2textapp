@@ -18,8 +18,8 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.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 }}
         run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
+          git config user.email "70110589@student.uol.edu.pk"
+          git config user.name "Sakina122"
           git add .
           git commit -m "Sync to Hugging Face Hub"
           git push https://sakinafatima123:${HF_TOKEN}@huggingface.co/spaces/sakinafatima123/image-to-text-app main
